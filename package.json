@@ -1,0 +1,20 @@
+{
+  "name": "sslcommerz-practice",
+  "version": "1.0.0",
+  "description": "practicing the integration of ssl commerz api",
+  "main": "index.js",
+  "author": "Mrr",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "sslcommerz": "^1.7.0"
+  }
+}
